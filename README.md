@@ -1,4 +1,4 @@
-Information about Application:
+*Information about Application:
 Purpose of usage:  
 To help people, especially students to manage their educational curriculum and help them with selection of university and job.
 Aim: 
