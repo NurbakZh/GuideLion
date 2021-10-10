@@ -48,23 +48,16 @@ changed and negotiated with users.
 ### User stories
 |User Type| User Story Title| User stories|
 | :---        |:----   |:----   |
-|All app users| Registration |  As a new user I can register into the application by
-entering my email password so that I can have access to
-the full app functionality|
-|All app users| Registration | As an authorised user I should be able to upload my
-profile picture and add a nickname to my account.|
-|All app users| Login| As a user I should be able to login to the app using the
-correct combination of my email and password so that I
-have access to whole app|
+|All app users| Registration |  As a new user I can register into the application by entering my email password so that I can have access to the full app functionality|
+|All app users| Registration | As an authorised user I should be able to upload my profile picture and add a nickname to my account.|
+|All app users| Login| As a user I should be able to login to the app using the correct combination of my email and password so that I have access to whole app|
 |All app users| Editing client and mentor profiles| As an authorised user, I should be able to change the information in my profile, so that I can keep it up to date|
 |All app users| Editing client and mentor profiles|As an authorised user, I should be able to change my password, so that I can restore my account if I forget it|
-
 |Mentor| Displaying the detailed info about mentors|As a mentor, I want to be able to fill in the information about the skills I offer, so that the clients can know it.|
 |Mentor| Displaying the detailed info about mentors|As a mentor, I want to show my available time so that clients can book them for meetings.|
 |Mentor| Displaying the detailed info about mentors|As a mentor, I should be able to define my pricings on the app, so that clients have an idea of the cost.|
 |Mentor| Payment system for mentor’s services|As a mentor, I should fill in the information about my card where I would like to get my funds, so that I can later withdraw them|
 |Mentor| Payment system for mentor’s services|As a mentor, I should be able to withdraw the funds that I have earned on the app to my credit card, so that I get my payment.|
-
 |Client| Displaying a list of available mentors for the client|As a client, I want to see the list of available mentors grouped by categories, so that I can easily navigate between them.|
 |Client| Displaying a list of available mentors for the client|As a client, I want to search for a mentor by his name or skills, so that I can easily find one|
 |Client| Displaying a list of available mentors for the client|As a client, I want to apply sortings and filterings to the mentors, so that it is easy for me to find the suitable one.|
@@ -73,7 +66,6 @@ have access to whole app|
 |Client| Online chatting between a client and a mentor|As a client, I want to receive notifications about new messages so that I do not miss them.|
 |Client| Online chatting between a client and a mentor|As a client, I want to see the time zone of the mentor in the chat, so that I can plan out communication.|
 |Client| Online chatting between a client and a mentor|As a client, I want to see the history of our messages in the chat, so that I keep the messages in one place.|
-
 |Administrator| Creation of terms of service with rules|As an administrator of the app, I should provide terms of services for all users of the app, so that clients and mentors are familiar with the rules and regulations of the app.|
 
 
