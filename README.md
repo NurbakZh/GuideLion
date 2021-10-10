@@ -17,6 +17,8 @@ GuideLion is an IOS application that allows to find a mentor in any area or beco
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/NurbakZh/GuideLion?color=%2343E0BD&label=Github%20Stars&logoColor=%2343E0BD&style=social)
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8d2863097ce543efb0fe7912e735882b)](https://www.codacy.com/gh/NurbakZh/GuideLion/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NurbakZh/GuideLion&amp;utm_campaign=Badge_Grade)
+
 ## 🧑‍💻 Development team
 1. Dana Kabdullina -
 UX/UI designer, product manager: 
