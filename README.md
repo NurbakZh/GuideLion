@@ -98,7 +98,7 @@ We have designed our GuideLion application according to the 5 rules of object or
 ## Architecture
 
 ### Static view diagram
-![static view](Static view.png)
+![static view](Static View.png)
 
 ### Dynamic view diagram
 
