@@ -4,15 +4,18 @@ Aim: To make skill sharing more accessible, using technologies.
 Target Market:  Market of IOS mobile applications based on knowledge.
 Competition:  There is only one app in AppStore that can be accepted as a competitor - MasterClass, however its working style differs, because in our app anyone can become a mentor and teach others, including conversations between different stakeholders. 	
 
-Dana Kabdullina
+##Development team
+1. Dana Kabdullina
 UX/UI designer, product manager
 Create user-friendly interface, organize app-architecture
-Vladislav Zharov
+2. Vladislav Zharov
  CTO of “NDV”, back-end developer, data analytics
 Code back-end part of the app, analyse DB and work with it
-Nurbek Zhomartov
+3. Nurbek Zhomartov
 CEO,CFO of “NDV”, front-end developer, main product manager, QA-engineer
 Code app interface, coordinate work of our team, control money flow, by negotiating with stakeholders
+
+
 
 # GuideLion 
 
@@ -80,10 +83,32 @@ changed and negotiated with users.
 |Usability| Using client's preferences to suggest optimal mentor|Analyse the previous searches of clients and their inquiries|
 |Regulatory | Creation of terms of service with rules. (To help to avoid situations, where users and mentors can move to other fields of communication, bypassing our app.)| Create the rules for the app and make them available to clients and mentors|
 
+## Design
+
+### UML Diagram
+### SOLID and Design patterns
+We have designed our GuideLion application according to the 5 rules of object oriented design - SOLID. 
+1. **S** standing for **Single - Responsibility principle**. Each class and module of our application has a responsibility for a single functionality, so there is exactly one reason of why we might need to make amendments to the class in the future. For example, the class 'Lesson' in our project is only responsible for initializing the lessons between the client and the mentor. So, it's responsibility is limited to a single function of creating a connection in the form of a lesson between a praticular mentor and a particular client
+2. **O** standing for  **Open / Closed principle**. We tried to maximize the extendability of our classes without making any additional alters to it. 
+3. **L** standing for **Liskov Substitution**. If we derive the class from some base class, then this derived class should substitute the parent class without interrupting the behavior of the project
+4. **I** standing for **Interface Segregation principle**. We tried splitting up a larger interfaces into some smaller ones, so that each one is only responsible for a smaller scope of the features that it actually needs.
+5. **D** standing for **Dependency Inversion principle**. Relying on this principle, we made the low level modules be dependent on the higher level ones, on the abstraction, but not vice versa.
+## Architecture
+
+### Static view diagram
+
+### Dynamic view diagram
+
 ## Contribution
 Nurbek Zhomartov - Project Manager, Front-end developer \
 Dana Kabdullina - UI/UX designer \
 Vladislav Zharov - Backend developer \
+
+## Technology stack
+* Swift
+* PostgresSQL
+* Django
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
