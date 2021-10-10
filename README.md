@@ -1,25 +1,27 @@
-# Information about Application:
-Purpose of usage: To help different kinds of people learn new skills and follow guidelines of their mentors, to achieve new highs in their fields.
-Aim: To make skill sharing more accessible, using technologies.
-Target Market:  Market of IOS mobile applications based on knowledge.
-Competition:  There is only one app in AppStore that can be accepted as a competitor - MasterClass, however its working style differs, because in our app anyone can become a mentor and teach others, including conversations between different stakeholders. 	
-
-##Development team
-1. Dana Kabdullina
-UX/UI designer, product manager
-Create user-friendly interface, organize app-architecture
-2. Vladislav Zharov
- CTO of “NDV”, back-end developer, data analytics
-Code back-end part of the app, analyse DB and work with it
-3. Nurbek Zhomartov
-CEO,CFO of “NDV”, front-end developer, main product manager, QA-engineer
-Code app interface, coordinate work of our team, control money flow, by negotiating with stakeholders
-
-
-
 # GuideLion 
 
 GuideLion is an IOS application that allows to find a mentor in any area or become a mentor and learn together
+
+**Aim**: To make skill sharing more accessible, using technologies. \
+**Target Market**:  Market of IOS mobile applications based on knowledge. \
+
+### Goals and objectives:
+* Deploy in the market store - AppStore.
+* Gaining first 1000 users, including both clients and mentors, in approximate ratio 80/20.
+* Gaining annual revenue of 1500$.
+* Set up maximal outflow from our app - 10%.
+* Implementing marketing, using Google Ads
+
+## Development team
+1. Dana Kabdullina -
+UX/UI designer, product manager: 
+Creates user-friendly interfaces, organizes app-architecture
+2. Vladislav Zharov -
+ CTO of “NDV”, back-end developer, data analytics:
+Code back-end part of the app, analyses DB and works with it
+3. Nurbek Zhomartov - 
+CEO, CFO of “NDV”, front-end developer, main product manager, QA-engineer:
+Codes app interfaces, coordinates work of our team, control money flow by negotiating with stakeholders
 
 ## 1. Requirements
 
@@ -96,6 +98,7 @@ We have designed our GuideLion application according to the 5 rules of object or
 ## Architecture
 
 ### Static view diagram
+![static view](https://drive.google.com/file/d/12Q0Ax6PTMOiqQi5Mqcmop7bQ-JcwwF3E/view?usp=sharing)
 
 ### Dynamic view diagram
 
