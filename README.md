@@ -47,6 +47,7 @@ changed and negotiated with users.
 
 ### User stories
 |User Type| User Story Title| User stories|
+| :---        |:----   |:----   |
 |All app users| Registration |  As a new user I can register into the application by
 entering my email password so that I can have access to
 the full app functionality|
