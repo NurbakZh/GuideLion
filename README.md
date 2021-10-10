@@ -104,11 +104,11 @@ We have designed our GuideLion application according to the 5 rules of object or
 ## Architecture
 
 ### Static view diagram
-![static view](https://github.com/NurbakZh/GuideLion/blob/e03e8921c802f787c1f1b1141916f0d89971ae53/Static%20View.png)
+![static view](https://github.com/NurbakZh/GuideLion/blob/553394716403beb4f078eaa1295717acb828597a/Resources/Static%20View.png)
 
 
 ### Dynamic view diagram
-![dynamicview](https://github.com/NurbakZh/GuideLion/blob/66d94ce39df3383d6ec7a9c83a6452265672d1ed/Dynamic%20VIew.png)
+![dynamicview](https://github.com/NurbakZh/GuideLion/blob/553394716403beb4f078eaa1295717acb828597a/Resources/dynamic.png)
 
 ## Contribution
 Nurbek Zhomartov - Project Manager, Front-end developer \
@@ -122,7 +122,7 @@ Vladislav Zharov - Backend developer \
 
 
 ## GuideLion app interfaces
-![interfaces](https://github.com/NurbakZh/GuideLion/blob/c8b4b8176ebeecf19031c24ce3a1503109b8ca8d/interfaces.png)
+![interfaces](https://github.com/NurbakZh/GuideLion/blob/553394716403beb4f078eaa1295717acb828597a/Resources/interfaces.png)
 
 
 
