@@ -1,4 +1,4 @@
-# GuideLion 
+# 🦁 GuideLion 
 
 GuideLion is an IOS application that allows to find a mentor in any area or become a mentor and learn together
 
@@ -17,7 +17,7 @@ GuideLion is an IOS application that allows to find a mentor in any area or beco
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/NurbakZh/GuideLion?color=%2343E0BD&label=Github%20Stars&logoColor=%2343E0BD&style=social)
 
-## Development team
+## 🧑‍💻 Development team
 1. Dana Kabdullina -
 UX/UI designer, product manager: 
 Creates user-friendly interfaces, organizes app-architecture
@@ -29,7 +29,7 @@ CEO, CFO of “NDV”, front-end developer, main product manager, QA-engineer:
 Codes app interfaces, coordinates work of our team, control money flow by negotiating with stakeholders
 
 
-## 1. Requirements
+##  ✔️ Requirements
 
 ### Project glossary
 * **Mentor** - The person who obtains some skills and knowledge in a certain field and can
@@ -91,7 +91,7 @@ changed and negotiated with users.
 |Usability| Using client's preferences to suggest optimal mentor|Analyse the previous searches of clients and their inquiries|
 |Regulatory | Creation of terms of service with rules. (To help to avoid situations, where users and mentors can move to other fields of communication, bypassing our app.)| Create the rules for the app and make them available to clients and mentors|
 
-## Design
+## 🖌️ Design
 
 ### UML Diagram
 ### SOLID and Design patterns
@@ -101,7 +101,7 @@ We have designed our GuideLion application according to the 5 rules of object or
 3. **L** standing for **Liskov Substitution**. If we derive the class from some base class, then this derived class should substitute the parent class without interrupting the behavior of the project
 4. **I** standing for **Interface Segregation principle**. We tried splitting up a larger interfaces into some smaller ones, so that each one is only responsible for a smaller scope of the features that it actually needs.
 5. **D** standing for **Dependency Inversion principle**. Relying on this principle, we made the low level modules be dependent on the higher level ones, on the abstraction, but not vice versa.
-## Architecture
+## 🧱 Architecture
 
 ### Static view diagram
 ![static view](https://github.com/NurbakZh/GuideLion/blob/553394716403beb4f078eaa1295717acb828597a/Resources/Static%20View.png)
@@ -115,13 +115,13 @@ Nurbek Zhomartov - Project Manager, Front-end developer \
 Dana Kabdullina - UI/UX designer \
 Vladislav Zharov - Backend developer \
 
-## Technology stack
+## 🖥️ Technology stack
 * Swift
 * PostgresSQL
 * Django
 
 
-## GuideLion app interfaces
+## 🎨 GuideLion app interfaces
 ![interfaces](https://github.com/NurbakZh/GuideLion/blob/553394716403beb4f078eaa1295717acb828597a/Resources/interfaces.png)
 
 
