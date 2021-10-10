@@ -121,4 +121,8 @@ Vladislav Zharov - Backend developer \
 * Django
 
 
+## GuideLion app interfaces
+![interfaces](https://github.com/NurbakZh/GuideLion/blob/c8b4b8176ebeecf19031c24ce3a1503109b8ca8d/interfaces.png)
+
+
 
