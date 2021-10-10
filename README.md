@@ -37,11 +37,11 @@ changed and negotiated with users.
 
 ### Stakeholders Roles
 
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
-
+| Role| Responsibility| 
+| :---        |    :----:   |
+| Project manager      | Prioritize the functional requirements to the development team. Responsible for communicating the project's progress to other stakeholders members | 
+| Sponsor | A person responsible for providing the financial resources for the sucess of the project| 
+| Sponsor | A person responsible for providing the financial resources for the sucess of the project| 
 
 
 ## Contribution
