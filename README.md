@@ -61,8 +61,8 @@ changed and negotiated with users.
 |Client| Displaying a list of available mentors for the client|As a client, I want to see the list of available mentors grouped by categories, so that I can easily navigate between them.|
 |Client| Displaying a list of available mentors for the client|As a client, I want to search for a mentor by his name or skills, so that I can easily find one|
 |Client| Displaying a list of available mentors for the client|As a client, I want to apply sortings and filterings to the mentors, so that it is easy for me to find the suitable one.|
-|Client| Matching the client with the mentor of his choice|As a user, I want to choose the available time, so that we can later arrange a meeting|
-|Client| Online chatting between a client and a mentor|Online chatting between a client and a mentorAs a client, I want to text any mentor, so that we can negotiate our plans.|
+|Client| Matching the client with the mentor of his choice|As a client, I want to choose the available time, so that we can later arrange a meeting|
+|Client| Online chatting between a client and a mentor|As a client, I want to text any mentor, so that we can negotiate our plans.|
 |Client| Online chatting between a client and a mentor|As a client, I want to receive notifications about new messages so that I do not miss them.|
 |Client| Online chatting between a client and a mentor|As a client, I want to see the time zone of the mentor in the chat, so that I can plan out communication.|
 |Client| Online chatting between a client and a mentor|As a client, I want to see the history of our messages in the chat, so that I keep the messages in one place.|
@@ -72,6 +72,7 @@ changed and negotiated with users.
 
 ### Nonfunctional Requirements
 |NFR naming| Requirement Description | How do we achieve it|
+| :---        |:----   |:----   |
 |Security| Secure authorization form for signing up and signing in |Requirements for password: minimum 8 characters, including digits and lower/upper case letters |
 |Capacity| Storage amount is scalable and enough to maintain up to 10000 users  |Set a scalable database in postgres |
 |Compatibility | Mobile application is compatible on all IOS smartphones starting from IOS 13 or later  |Build an application on using IOS 13 SDK or later on Swift programming language|
