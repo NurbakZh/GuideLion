@@ -96,6 +96,9 @@ changed and negotiated with users.
 ## 🖌️ Design
 
 ### UML Diagram
+![uml1](https://github.com/NurbakZh/GuideLion/blob/7bd39ab0f206bbf23f1ee4963a6d702a7636bd0e/Resources/uml1.jpg)
+![uml2](https://github.com/NurbakZh/GuideLion/blob/7bd39ab0f206bbf23f1ee4963a6d702a7636bd0e/Resources/uml2.jpg)
+
 ### SOLID and Design patterns
 We have designed our GuideLion application according to the 5 rules of object oriented design - SOLID. 
 1. **S** standing for **Single - Responsibility principle**. Each class and module of our application has a responsibility for a single functionality, so there is exactly one reason of why we might need to make amendments to the class in the future. For example, the class 'Lesson' in our project is only responsible for initializing the lessons between the client and the mentor. So, it's responsibility is limited to a single function of creating a connection in the form of a lesson between a praticular mentor and a particular client
@@ -112,10 +115,7 @@ We have designed our GuideLion application according to the 5 rules of object or
 ### Dynamic view diagram
 ![dynamicview](https://github.com/NurbakZh/GuideLion/blob/553394716403beb4f078eaa1295717acb828597a/Resources/dynamic.png)
 
-## Contribution
-Nurbek Zhomartov - Project Manager, Front-end developer \
-Dana Kabdullina - UI/UX designer \
-Vladislav Zharov - Backend developer \
+
 
 ## 🖥️ Technology stack
 * Swift
