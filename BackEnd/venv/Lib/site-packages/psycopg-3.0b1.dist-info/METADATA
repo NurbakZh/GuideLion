@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: psycopg
+Version: 3.0b1
+Summary: PostgreSQL database adapter for Python
+Home-page: https://psycopg.org/psycopg3/
+Author: Daniele Varrazzo
+Author-email: daniele.varrazzo@gmail.com
+License: GNU Lesser General Public License v3 (LGPLv3)
+Project-URL: Homepage, https://psycopg.org/
+Project-URL: Code, https://github.com/psycopg/psycopg
+Project-URL: Issue Tracker, https://github.com/psycopg/psycopg/issues
+Project-URL: Download, https://pypi.org/project/psycopg/
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: typing-extensions ; python_version < "3.8"
+Requires-Dist: backports.zoneinfo ; python_version < "3.9"
+Provides-Extra: binary
+Requires-Dist: psycopg-binary (==3.0.beta1) ; extra == 'binary'
+Provides-Extra: c
+Requires-Dist: psycopg-c (==3.0.beta1) ; extra == 'c'
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 (<3.9,>=3.8) ; extra == 'dev'
+Requires-Dist: mypy (>=0.812) ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: Sphinx (<4.2,>=4.1) ; extra == 'docs'
+Requires-Dist: dnspython (>=2.1.0) ; extra == 'docs'
+Requires-Dist: docutils (<0.18,>=0.17) ; extra == 'docs'
+Requires-Dist: furo (>=furo-2021.8.17b43) ; extra == 'docs'
+Requires-Dist: sphinx-autobuild (>=2021.3.14) ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints (<1.13,>=1.12) ; extra == 'docs'
+Provides-Extra: pool
+Requires-Dist: psycopg-pool ; extra == 'pool'
+Provides-Extra: test
+Requires-Dist: mypy (>=0.812) ; extra == 'test'
+Requires-Dist: pproxy (<2.8,>=2.7) ; extra == 'test'
+Requires-Dist: pytest (<6.3,>=6.2.4) ; extra == 'test'
+Requires-Dist: pytest-asyncio (<0.16,>=0.15.0) ; extra == 'test'
+Requires-Dist: pytest-randomly (<3.8,>=3.7) ; extra == 'test'
+Requires-Dist: tenacity (<7.1,>=7) ; extra == 'test'
+
+Psycopg 3: PostgreSQL database adapter for Python
+=================================================
+
+Psycopg 3 is a modern implementation of a PostgreSQL adapter for Python.
+
+This distribution contains the pure Python package ``psycopg``.
+
+
+Installation
+------------
+
+In short, run the following::
+
+    pip install -U pip                  # to upgrade pip
+    pip install psycopg[binary,pool]    # to install package and dependencies
+
+If something goes wrong, and for more information about installation, please
+check out the `Installation documentation`__.
+
+.. __: https://www.psycopg.org/psycopg3/docs/basic/install.html#
+
+
+Hacking
+-------
+
+For development information check out `the project readme`__.
+
+.. __: https://github.com/psycopg/psycopg#readme
+
+
+Copyright (C) 2020-2021 The Psycopg Team
+
+

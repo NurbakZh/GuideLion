@@ -1,0 +1,460 @@
+@charset "utf-8";
+
+/*
+ Hive Layout Framework
+ Copyright (C) 2008-2012 Hive Solutions Lda.
+
+ This file is part of Hive Layout Framework.
+
+ Hive Layout Framework is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ Hive Layout Framework is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with Hive Layout Framework. If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/*
+ __author__    = João Magalhães <joamag@hive.pt>
+ __version__   = 1.0.0
+ __revision__  = $LastChangedRevision$
+ __date__      = $LastChangedDate$
+ __copyright__ = Copyright (c) 2010-2012 Hive Solutions Lda.
+ __license__   = GNU General Public License (GPL), Version 3
+*/
+
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #dddddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #bbbbbb;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #aaaaaa;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background-color: #cccccc;
+}
+
+#header {
+}
+
+#content {
+}
+
+#footer {
+    color: #888888;
+    line-height: 26px;
+    margin: 20px 0px 0px 0px;
+}
+
+#overlay {
+    display: none;
+    left: 0px;
+    top: 0px;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    color: #4d4d4d;
+    font-family: "Garamond", "Georgia", "serif";
+    font-size: 16px;
+    margin: 20px auto 20px auto;
+    padding: 12px 12px 12px 12px;
+    text-align: center;
+    width: 620px;
+}
+
+body.wide {
+    width: 820px;
+}
+
+body.uwide {
+    width: 1280px;
+}
+
+body.full {
+    width: inherit;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #4d4d4d;
+}
+
+a {
+    color: #3668c6;
+    text-decoration: none;
+}
+
+a.active {
+    font-weight: bold;
+}
+
+a:hover {
+    border-bottom: 1px solid #3668c6;
+    padding-bottom: 2px;
+}
+
+form {
+    margin: 46px auto 46px auto;
+    width: 540px;
+}
+
+form.small {
+    margin: 22px auto 46px auto;
+}
+
+table {
+    margin: 20px 0px 32px 0px;
+    width: 620px;
+}
+
+table td {
+    font-size: 18px;
+    padding: 8px 20px 8px 20px;
+}
+
+table td.label {
+    color: #666666;
+}
+
+table td.left {
+    text-align: left;
+}
+
+table td.right {
+    text-align: right;
+}
+
+input {
+    background-color: #fcfcfc;
+    border: 1px solid #dddddd;
+    color: #2d2d2d;
+    font-family: "Garamond", "Georgia", "serif";
+    font-size: 20px;
+    height: 40px;
+    outline: none;
+    padding: 0px 8px 0px 8px;
+    width: 524px;
+}
+
+input.small {
+    width: 324px;
+}
+
+input.lower {
+    color: #999999;
+}
+
+input:focus {
+    border-color: #3668c6;
+}
+
+input.invalid {
+    border-color: #c9273f;
+    color: #2d2d2d;
+}
+
+input.disabled {
+    opacity: 0.6;
+}
+
+input::-webkit-input-placeholder {
+    color: #999999;
+}
+
+input:-moz-placeholder {
+    color: #999999;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    background: transparent url(../images/check-button.png) no-repeat left 0px;
+    border: none;
+    cursor: pointer;
+    height: 24px;
+    width: 42px;
+}
+
+input[type="checkbox"]:hover {
+    background-position: left -24px;
+}
+
+input[type="checkbox"]:checked {
+    background-position: left -48px;
+}
+
+input[type="checkbox"]:checked:hover {
+    background-position: left -72px;
+}
+
+textarea {
+    background-color: #fcfcfc;
+    border: 1px solid #dddddd;
+    color: #2d2d2d;
+    font-family: "Garamond", "Georgia", "serif";
+    font-size: 20px;
+    height: 140px;
+    outline: none;
+    padding: 8px 8px 8px 8px;
+    width: 524px;
+}
+
+textarea:focus {
+    border-color: #3668c6;
+}
+
+textarea.invalid {
+    border-color: #c9273f;
+    color: #2d2d2d;
+}
+
+textarea.disabled {
+    opacity: 0.6;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #aaaaaa;
+}
+
+textarea:-moz-placeholder {
+    color: #aaaaaa;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    margin: 20px 0px 20px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+ul li {
+    cursor: default;
+    list-style: none;
+    margin: 12px 0px 12px 0px;
+    padding: 12px 0px 12px 0px;
+}
+
+ul li.selected {
+    background-color: #f6f6f6;
+}
+
+ul li:hover {
+    background-color: #f6f6f6;
+}
+
+ul li .image {
+    margin-bottom: 4px;
+}
+
+ul li .image a:hover {
+    border-bottom: none;
+}
+
+ul li .name {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+ul li .description {
+    font-size: 18px;
+}
+
+pre {
+    background-color: #f6f6f6;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 20px 0px 20px 0px;
+    padding: 12px 12px 12px 12px;
+    text-align: left;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.label {
+    text-align: center;
+}
+
+.label.label-left {
+    text-align: left;
+}
+
+.label.label-right {
+    text-align: left;
+}
+
+.input {
+    font-size: 20px;
+    margin: 10px 0px 26px 0px;
+    text-align: center;
+}
+
+.button {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0px 4px 0px 4px;
+}
+
+.button:hover {
+    border-bottom: 1px solid #666666;
+    padding-bottom: 2px;
+}
+
+.filter {
+    user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+.filter li > .table-clear {
+    clear: both;
+    float: none;
+}
+
+.filter .table-row {
+    height: 18px;
+    padding: 12px 20px 12px 20px;
+}
+
+.filter .table-row > * {
+    float: left;
+}
+
+.filter .table-text {
+    border-bottom: 1px solid #f2f2f2;
+    margin: 0px 0px 0px 0px;
+    padding: 16px 16px 16px 16px;
+    text-align: left;
+}
+
+.filter .table-text > * {
+    float: left;
+}
+
+.filter .table-text > .image {
+    line-height: 0px;
+    margin-bottom: 0px;
+}
+
+.filter .table-text > .container {
+    margin-left: 16px;
+    width: 508px;
+}
+
+.filter .table-text > .container > .name {
+    font-size: 22px;
+}
+
+.filter .table-text > .container > .description {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.error-description {
+    color: #c9273f;
+    font-size: 18px;
+    margin: 8px 0px 0px 0px;
+    text-align: right;
+}
+
+.links {
+    font-size: 18px;
+}
+
+.links.sub-links {
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+.quote {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 20px 0px 20px 0px;
+}
+
+.quote.error {
+    color: #c31f30;
+    font-weight: bold;
+}
+
+.up,
+.online,
+.passed,
+.valid {
+    color: #32951b;
+}
+
+.down,
+.offline,
+.failed,
+.invalid {
+    color: #c31f30;
+}
+
+.separator-horizontal {
+    background: transparent url(../images/separator-horizontal.png) no-repeat center center;
+    height: 10px;
+    margin: 12px auto 12px auto;
+    width: 260px;
+}
+
+.footer-logo {
+    background: transparent none no-repeat left 0px;
+    cursor: pointer;
+    height: 25px;
+    margin: 28px auto 8px auto;
+    width: 25px;
+}
+
+.footer-logo:hover {
+    background-position: left -25px;
+    border-bottom: none;
+}
+
+.recursion-set {
+    font-size: 20px;
+    margin: 20px 0px 32px 0px;
+    text-align: center;
+}
+
+.recursion {
+    margin: 0px 12px 0px 12px;
+    text-align: center;
+    width: 24px;
+}
