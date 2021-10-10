@@ -12,6 +12,11 @@ GuideLion is an IOS application that allows to find a mentor in any area or beco
 * Set up maximal outflow from our app - 10%.
 * Implementing marketing, using Google Ads
 
+
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/NurbakZh/GuideLion?color=%2343E0BD&logoColor=%2343E0BD)
+
+![GitHub Repo stars](https://img.shields.io/github/stars/NurbakZh/GuideLion?color=%2343E0BD&label=Github%20Stars&logoColor=%2343E0BD&style=social)
+
 ## Development team
 1. Dana Kabdullina -
 UX/UI designer, product manager: 
@@ -22,6 +27,7 @@ Code back-end part of the app, analyses DB and works with it
 3. Nurbek Zhomartov - 
 CEO, CFO of “NDV”, front-end developer, main product manager, QA-engineer:
 Codes app interfaces, coordinates work of our team, control money flow by negotiating with stakeholders
+
 
 ## 1. Requirements
 
@@ -115,5 +121,4 @@ Vladislav Zharov - Backend developer \
 * Django
 
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+
